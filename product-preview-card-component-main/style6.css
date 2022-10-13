@@ -1,0 +1,142 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* - Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+-  Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700 */
+
+.subhead{ font-size: 1rem;
+font-weight: 500;
+color: gray;
+font-family:'Montserrat';
+text-align: left;
+text-transform: uppercase;
+letter-spacing: 3px;
+}
+
+
+
+
+body{ font-size: 14px;
+ display:flex;
+ 
+flex-direction: column;
+font-family: 'Montserrat',sans-serif;
+background-color:  hsl(30, 38%, 92%);;
+text-align: justify;
+min-height: 100vh;
+width: 50%;
+border: none;
+font-size: 1rem;
+padding: 1rem 2rem;
+border-radius: 0.626rem;
+border: 0;
+margin: 30px auto;
+}
+
+*{ margin: 0%; padding: 0; box-sizing: 0;
+
+}
+.btn{ 
+    background-color:hsl(158, 36%, 37%); 
+border: 0ex; 
+border-radius: 8px;
+font-size: 14px;
+box-sizing: border-box;
+width: 200px;
+color: white;
+height: 40px;
+font-family: sans-serif;
+text-align: center;
+padding-top: 10px;
+}
+
+.container .btn:hover{
+    background-color: rgb(2, 63, 24);
+}
+
+.btn img{
+
+    padding-left: 45px;
+padding-bottom: 30%;
+
+}
+
+h2{ color: hsl(212, 21%, 14%) ;
+font-weight: 700;  text-align: left;
+min-height: calc(100vh- 0.1px);
+font-family: 'Fraunces', serif;
+font-size: 40px;
+line-height: 1em;
+}
+.container{ 
+text-align: center;
+align-content: center;
+background-color: hsl(30, 38%, 92%);
+justify-self: center;
+}
+
+.grid{ max-width: 700px; display: grid;
+grid-template-columns: 1fr 1fr;
+background-color: white;
+border-radius: 15px;
+overflow: hidden;
+}
+.img img{ max-width: 100%;
+    display: inherit ;
+
+}
+.card-content{ padding: 35px; display: flex;
+flex-direction: column; 
+justify-content: space-between;
+align-content: center;
+
+}
+
+
+
+img{  display: grid;
+    grid-template-columns: repeat(2,1fr);
+    max-width: 100%;
+    align-self: inherit;
+    border-radius: 20px 0 0 20px;
+    border: 0;
+
+}
+p{font-size: 14px;
+font-family: Montserrat;
+font-weight: 500;
+text-align: left;
+color: gray;
+line-height: 1.6em;
+
+}
+
+
+.price{display: flex;
+    align-items: center;
+    
+}
+
+.price-two{ padding-top: 20px;
+padding-left: 50px;
+}
+
+    .price-one{ color:hsl(158, 36%, 37%); 
+font-family: 'Fraunces' ;
+font-weight: 700;
+font-size: 30px;
+    }
+
+    .attribution { font-size: 14px; text-align: center;
+    }
+
+
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+    
